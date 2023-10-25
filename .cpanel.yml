@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/renaldy666/public_html/ppgkemendikbud
+    - export DEPLOYPATH=/home/rend2973/public_html/ppgkemendikbud
     - /bin/cp -R archive $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R beasiswas3 $DEPLOYPATH
