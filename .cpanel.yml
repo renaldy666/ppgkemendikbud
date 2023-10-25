@@ -1,0 +1,32 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp -R archive $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R beasiswas3 $DEPLOYPATH
+    - /bin/cp -R faq $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R info-grafis $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R karya $DEPLOYPATH
+    - /bin/cp -R linieritas $DEPLOYPATH
+    - /bin/cp -R lptk $DEPLOYPATH
+    - /bin/cp -R news $DEPLOYPATH
+    - /bin/cp -R page $DEPLOYPATH
+    - /bin/cp -R panel-admin $DEPLOYPATH
+    - /bin/cp -R pdf-viewer $DEPLOYPATH
+    - /bin/cp -R pemetaan $DEPLOYPATH
+    - /bin/cp -R prajab $DEPLOYPATH
+    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R storage $DEPLOYPATH
+    - /bin/cp -R survey $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp beasiswas3.html $DEPLOYPATH
+    - /bin/cp Direktorat-PPG-Siap-Gelar-PPG-Prajabatan-Gelombang-2.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp lptk.html $DEPLOYPATH
+    - /bin/cp ppg-dalam-jabatan.html $DEPLOYPATH
+    - /bin/cp ppg-prajabatan.html $DEPLOYPATH
+    - /bin/cp prajabatan.html $DEPLOYPATH
+    
